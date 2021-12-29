@@ -1,24 +1,7 @@
-<!--
-  Feel
-  free
-  to
-  remove
-  these
-  styles
-  or
-  customise
-  in
-  your
-  own
-  stylesheet
-  👍
-  --
-  > .attribution {
+.attribution {
   font-size: 11px;
   text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
+  color: hsl(0, 0%, 100%);
 }
 
 * {
@@ -31,14 +14,18 @@ body {
   font-family: "Inter", "Lexend Deca", sans-serif;
   background-color: hsl(233, 47%, 7%);
   min-height: 100vh;
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 }
 
 .container {
   max-width: 1020px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .wrapping {
@@ -123,10 +110,6 @@ span {
 
   .img-comp {
     order: -1;
-  }
-
-  body {
-    background-color: yellow;
   }
 
   .num-details {
