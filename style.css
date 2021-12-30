@@ -16,10 +16,6 @@
 body {
   font-family: "Inter", "Lexend Deca", sans-serif;
   background-color: hsl(233, 47%, 7%);
-  min-height: 100vh;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
 }
 
 .container {
@@ -29,6 +25,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 50px;
 }
 
 .wrapping {
